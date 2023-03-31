@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: peachpuff;
+            text-align: center;
+            /* padding-left: 32%; */
+        }
+        img{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+        .emp{
+            background-color: #4b0082;
+            /* height: 500px;
+            width: 500px; */
+            width: 50%;
+            margin: auto;
+            box-shadow: 5px 10px gray;
+            
+        }
+        p,h4{
+            color: white;
+        }
+    </style>
+    <form class="modal-content" method="post" action="login1.php">
+    <div class="emp" id="100">
+    <h1 style="text-align:center ;color: white;">LOGIN FORM</h1>
+    <img src="images/kakashi.jpg">
+    <div>
+        <p style="color: white;">Username</p>
+        <input type="text" name="user" placeholder="username" required>
+    </div>
+    <figure>
+    <div class="pass">
+        <p>Password</p>
+        <input type="password" name="pw" placeholder="Password" required>
+    </div><br>
+    <div class="fp">
+        <a href="#" style="color: white;">forget password?</a>
+    </div>
+    </figure>
+    <br>
+    <div>
+        <!-- <a href="air.html"> -->
+        <button type="submit" style="font-size: large;padding:5px 25px; background-color:palevioletred ;border-radius: 10px;border: 0px;">Login</button>
+        <a href="signup.html"><button type="button" style="font-size: large;padding:5px 25px; background-color:palevioletred ;border-radius: 10px;border: 0px;">Sign up</button></a>
+    </div><br>
+    </div>
+    </form>
+     <!-- <script>
+        var log = document.getElementById('100');
+window.onclick = function(event) {
+    if (event.target == log) {
+        log.style.display = "none";
+    }
+}
+    </script>  -->
+    
+
+</body>
+</html>

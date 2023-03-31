@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABHS AIRLINE</title>
+</head>
+<body>
+    <style>
+        body{
+            margin: 0;
+            background-image: url("images/airline.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        h1{
+            font-size: 52px;
+	        text-transform: uppercase;
+	        color: #4fa3e3;
+	        font-weight: 400;
+        }
+        p{
+            color: aliceblue;
+            font-size: 20px;
+        }
+        .up{
+    padding-top: 20px;
+    background-color: lightblue;
+    width: 100%;
+    height: 50px;
+    text-align: right;
+}
+
+        /* login */
+form{
+    border: 3px solid #f1f1f1;
+}
+section{
+    display: inline-block;
+    box-sizing: border-box;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.loginbtn{
+    width: 200px;
+    background-color: #04AA6D;
+    color: white;
+    border: white;
+}
+.container {
+    padding: 16px;
+  }
+  .cancelbtn{
+      padding: 5px 10px;
+      background-color: red;
+      color: white;
+      border: white;
+  }
+  .emp {
+    text-align: center;
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 1000px;
+    width: 500px;
+    overflow: auto;
+    background-color: #4b0082; 
+    padding-top: 60px;
+  }
+        img{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+        .log{
+            background-color: #4b0082;
+            height: 500px;
+            width: 500px;
+            box-shadow: 5px 10px gray;
+            
+        }
+        p,h4{
+            color: white;
+        }
+
+  /* login */  
+
+    </style>
+     <div class="up">
+        <a href="login.html"><button onclick="document.getElementById('100').style.display='block'" style="width:auto;">LOGIN</button></a>
+        </div>
+    <script>
+        
+var log = document.getElementById('100');
+window.onclick = function(event) {
+    if (event.target == log) {
+        log.style.display = "none";
+    }
+}
+    </script>
+    </div>
+    <!-- login -->
+    <h1>ABHS AIRLINES
+    </h1>
+    <p>&emsp;&emsp;&emsp;Airline reservation systems (ARS) are systems that allow an airline to sell their inventory (seats). It contains information on schedules and fares and contains a database of reservations (or passenger name records) and of tickets issued (if applicable). ARSs are part of passenger service systems (PSS), which are applications supporting the direct contact with the passenger.
+
+        ARS eventually evolved into the computer reservations system (CRS). A computer reservation system is used for the reservations of a particular airline and interfaces with a global distribution system (GDS) which supports travel agencies and other distribution channels in making reservations for most major airlines in a single system.</p>
+        <p>&emsp;&emsp;&emsp;Airline reservation systems incorporate airline schedules, fare tariffs, passenger reservations and ticket records. An airline's direct distribution works within their own reservation system, as well as pushing out information to the GDS. The second type of direct distribution channel are consumers who use the internet or mobile applications to make their own reservations. Travel agencies and other indirect distribution channels access the same GDS as those accessed by the airline reservation systems, and all messaging is transmitted by a standardized messaging system that functions on two types of messaging that transmit on SITA's high level network (HLN). These messaging types are called Type A [usually EDIFACT format] for real time interactive communication and Type B [TTY] for informational and booking type of messages. Message construction standards set by IATA and ICAO, are global, and apply to more than air transportation. Since airline reservation systems are business critical applications, and they are functionally quite complex, the operation of an in-house airline reservation system is relatively expensive.
+    </p>
+</body>
+</html>
