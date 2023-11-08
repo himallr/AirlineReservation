@@ -2,7 +2,6 @@
 
 $name= $_POST['user'];
 $password=$_POST['pw'];
-
 $con=new mysqli("localhost" , "root" , "" , "airline");
 if($con->connect_error){
     die("connection failed : ".$conn->connect_error);
