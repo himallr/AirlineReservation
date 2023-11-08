@@ -255,16 +255,16 @@ section {
     <br>
     <br>
     <div class="white">
-        <form method="POST" action="index.php">
+        <form method="POST" action="index.php" data-netlify="true" name="air">
         <h1>Make Your Reservation</h1>
         <div>
             <span type="text">Identification number:</span>
-            <input type="text" placeholder="Enter your destination" name="id" required>
+            <input type="text" placeholder="Enter Identification number" name="id" required>
         </div>
         <br>
         <div>
             <span type="text">Flying from:</span>
-            <input type="text" placeholder="Enter your destination" name="f_from" required>
+            <input type="text" placeholder="Flying from" name="f_from" required>
         </div>
         <br>
 
@@ -314,7 +314,7 @@ section {
             </div>
         <br>
         <div>
-			<button>Check availability</button>&emsp;&emsp;
+			<a href="book.html"><button>Check availability</button></a>&emsp;&emsp;
 			<nav>
 			<a href="home.html"><button type="button">Cancel</button></a>
 			</nav>
